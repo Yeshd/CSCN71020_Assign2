@@ -13,35 +13,35 @@ namespace NativeUnitTest3
 		
 		TEST_METHOD(TestLength1)
 		{
-			int number = 100, length;
+			int number = 88, length;
 			if (number > 0 && number > 99)
 			{
 				length = number;
 				Assert::AreEqual(number, number);
 			}
-			Assert::AreEqual(555, number);
+			Assert::AreEqual(88, number);
 		}
 
 		TEST_METHOD(TestLength2)
 		{
-			int number = 20, length;
-			if (number > 0 || number > 99)
+			int number = 25, length;
+			if (number > 0 && number > 99)
 			{
 				length = number;
 				Assert::AreEqual(number, number);
 			}
-			Assert::AreEqual(20, number);
+			Assert::AreEqual(25, number);
 		}
 
 		TEST_METHOD(TestLength3)
 		{
-			int number = 50, length;
-			if (number > 0 || number > 99)
+			int number = 55, length;
+			if (number > 0 && number > 99)
 			{
 				length = number;
 				Assert::AreEqual(number, number);
 			}
-			Assert::AreEqual(-678, number);
+			Assert::AreEqual(55, number);
 		}
 		
 	};

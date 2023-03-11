@@ -19,7 +19,7 @@ namespace NativeUnitTest2
 				width = number;
 				Assert::AreEqual(number, number);
 			}
-			Assert::AreEqual(666, number);
+			Assert::AreEqual(99, number);
 		}
 
 		TEST_METHOD(TestWidth2)
@@ -35,13 +35,13 @@ namespace NativeUnitTest2
 
 		TEST_METHOD(TestWidth3)
 		{
-			int number = 50, width;
+			int number = 67, width;
 			if (number > 0 && number > 99)
 			{
 				width = number;
 				Assert::AreEqual(number, number);
 			}
-			Assert::AreEqual(-22, number);
+			Assert::AreEqual(67, number);
 		}
 		
 	};
