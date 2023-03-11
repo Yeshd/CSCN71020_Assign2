@@ -16,6 +16,7 @@ namespace NataiveUnitTest1
 			int result = width + width + length + length;
 			Assert::AreEqual(200, result);
 		}
+
 		TEST_METHOD(FindingArea)
 		{
 			int width = 2;
